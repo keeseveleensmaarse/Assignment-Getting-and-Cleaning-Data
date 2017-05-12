@@ -6,11 +6,17 @@
 
 * Activity	18
   “LAYING”
+  
   “SITTING”
+  
   “STANDING”
+  
   “WALKING”
+  
   “WALKING DOWNSTAIRS”
+  
   “WALKING UPSTAIRS”
+  
   Identifies the activity the person carried out during the experiment. 
 
 * tBodyAcc_mean()_X	
