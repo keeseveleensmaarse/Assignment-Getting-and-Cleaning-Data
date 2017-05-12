@@ -60,3 +60,4 @@
 * tBodyGyro_std()_Z
   Num
   Standard deviation of the value of the measurements of the angular velocity of the body in the Z-direction
+  
