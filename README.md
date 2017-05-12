@@ -1,6 +1,6 @@
 # Assignment-Getting-and-Cleaning-Data
-##This is the Readme that should be used with the script for the Getting and Cleaning 
-##Data Course Project, part of the Coursera Getting and Cleaning Data Course.
+## This is the Readme that should be used with the script for the Getting and Cleaning 
+## Data Course Project, part of the Coursera Getting and Cleaning Data Course.
 
 After studying all available materials, I started to read in the necessary data. I did this using read.table. After the tables were available for detailed analysis, I noticed the number of lines in subject_test, y_test and X_test are all equal; the same applies to subject_train, y_train and X_train. Also, the number of columns of X_test and Y_test is equal to the number of lines in the features-table. This gave me a clue how everything should fit together:
 * X_train and X_test contain the measured and calculated values;
