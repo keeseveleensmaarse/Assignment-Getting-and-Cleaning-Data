@@ -1,6 +1,7 @@
 
 * Subject	2
-  Int; value 1 - 30
+  Int; 
+  value 1 - 30
   Identifies the person that was the subject of the experiment in which accelerations were measured when the person carried out various types of activities.
 
 * Activity	18
