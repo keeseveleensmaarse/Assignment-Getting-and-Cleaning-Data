@@ -7,23 +7,7 @@ After studying all available materials, I started to read-in the necessary data.
 * y_train and y_test contain the types of activities that were executed during the applicable measurements in X_train and X_test.
 * activity_labels contains the descriptions for the 6 types of activities.
 
-Then, there is the question of which columns to use from X_test and X_train. I decided to select the following:
-* tBodyAcc_mean()_X
-* tBodyAcc_mean()_Y
-* tBodyAcc_mean()_Z
-* tBodyAcc_std()_X
-* tBodyAcc_std()_Y
-* tBodyAcc_std()_Z
-* tBodyGyro_mean()_X
-* tBodyGyro_mean()_Y
-* tBodyGyro_mean()_Z
-* tBodyGyro_std()_X
-* tBodyGyro_std()_Y
-* tBodyGyro_std()_Z
-
-My two arguments for selecting these columns are:
-* the statement in the description: “only the measurements on the mean and standard deviation for each measurement”
-* the definition of a tidy data set, which implies that no computation should be carried out with raw data. 
+Then, there is the question of which columns to use from X_test and X_train. I decided to select the columns where either ‘mean’ or ’std’ is found in the column names, using the file feature.txt  
 
 So I selected the chosen columns out of the X-test and X_train data tables.
 
